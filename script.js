@@ -34,8 +34,7 @@ function renderBoard() {
     cellEl.addEventListener('click', () => handleClick(i));
     boardEl.appendChild(cellEl);
   });
-}
-// /* Created By Yash kumar Banjare... */ 
+} 
 function handleClick(index) {
   if (board[index] || isGameOver) return;
   board[index] = currentPlayer;
@@ -71,7 +70,6 @@ function checkWin() {
       return;
     }
   }
-/* Created By Yash kumar Banjare... */ 
   if (!board.includes('')) {
     isGameOver = true;
     statusEl.textContent = "It's a draw!";
@@ -84,5 +82,4 @@ function highlightWinningCells(combo) {
 }
 
 // Initialize
-startGame();
-/* Created By Yash kumar Banjare... */ 
+startGame(); 
