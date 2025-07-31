@@ -6,9 +6,7 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-}
-
-/* Created By Yash kumar Banjare... */ 
+} 
 
 .container {
   text-align: center;
@@ -17,7 +15,6 @@ body {
   background: linear-gradient(145deg, #ffffff, #e0f7fa);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
-/* Created By Yash kumar Banjare... */ 
 h1 {
   color: #333;
   margin-bottom: 10px;
@@ -41,7 +38,6 @@ h1 {
   transform: scale(1.05);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
-/* Created By Yash kumar Banjare... */ 
 .board {
   display: grid;
   grid-template-columns: repeat(3, 100px);
@@ -63,7 +59,6 @@ h1 {
   cursor: pointer;
   transition: background 0.3s ease, transform 0.2s ease;
 }
-/* Created By Yash kumar Banjare... */ 
 
 .cell:hover {
   background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
@@ -80,5 +75,4 @@ h1 {
   margin-top: 10px;
   font-size: 18px;
   color: #333;
-}
-/* Created By Yash kumar Banjare... */ 
+} 
